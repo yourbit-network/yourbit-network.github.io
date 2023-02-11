@@ -1,5 +1,3 @@
-# yourbit.network
-
 Yourbit develops software to make your life easier. 
 
 Get to know our apps:
