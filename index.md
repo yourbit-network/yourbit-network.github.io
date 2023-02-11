@@ -12,4 +12,4 @@ Find us on Whatsapp: +1 (938) 888 8871
 
 https://wa.me/message/5OQBIIUEUTQDA1
 
-![qr code][{{site.url}}/assets/wabaqr.jpeg]
+![https://wa.me/message/5OQBIIUEUTQDA1]({{site.url}}/assets/wabaqr.jpeg)
