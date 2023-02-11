@@ -1,9 +1,15 @@
-## yourbit.network
+# yourbit.network
 
-Urbit Star operator (`~rilten`)
+Yourbit develops software to make your life easier. 
 
-Urbit Planets available for $25 USDC + network fees, [contact us](mailto:rilten@yourbit.network)
+Get to know our apps:
 
-Fuse Network Validator since February 2021.
+## Cuervo AI
 
-Get in touch on Urbit `~mogfus-ropduc` or [email](mailto:mogfus-ropduc@yourbit.network)
+Cuervo is your digital assistant, powered by the latest in AI technology. 
+
+Find us on Whatsapp: +1 (938) 888 8871 
+
+https://wa.me/message/5OQBIIUEUTQDA1
+
+![qr code][{{site.url}}/assets/wabaqr.jpeg]
