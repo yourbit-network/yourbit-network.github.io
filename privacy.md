@@ -1,4 +1,5 @@
 # Privacy Policy
+
 Welcome to Cuervo.ai, an AI-assisted chat service leveraging the WhatsApp platform. Your privacy is of utmost importance to us and this Privacy Policy provides information about how we collect, use, store and share your data.
 
 By using our services, you consent to the data practices outlined in this policy.
