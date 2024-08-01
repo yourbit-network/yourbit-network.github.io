@@ -1,6 +1,5 @@
 # Terms of Service
 
-
 Welcome to Cuervo.ai, an AI-assisted chat service leveraging WhatsApp instant messaging. Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the Cuervo.ai application (the "Service") operated by Yourbit.network ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all users of the Service.
