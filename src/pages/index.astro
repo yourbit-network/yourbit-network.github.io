@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import { Image } from 'astro:assets';
+import notibuddyIcon from '../assets/notibuddy-icon.png';
 import Arrow from '../components/Arrow.astro';
 import { site } from '../config';
 const services = [
@@ -31,7 +33,7 @@ const services = [
     <div class="section-heading"><div><p class="eyebrow">01 / Our products</p><h2 id="products-title">Small moments.<br />Better experiences.</h2></div><p>Tools we want to use ourselves.<br />Built with care, one detail at a time.</p></div>
     <article class="product-card">
       <div class="product-copy">
-        <div class="product-name"><img src="/images/notibuddy-icon.png" alt="" width="44" height="44" loading="lazy" /><h3>NotiBuddy</h3><span class="product-category">For iPhone</span></div>
+        <div class="product-name"><Image src={notibuddyIcon} alt="" width={44} height={44} densities={[1, 2]} format="webp" loading="lazy" /><h3>NotiBuddy</h3><span class="product-category">For iPhone</span></div>
         <h4>Your apps can ask.<br /><span>You can answer.</span></h4>
         <p>Step away from your desk without losing the thread. NotiBuddy brings questions and updates from your AI and connected apps to your iPhone.</p>
         <ul class="product-features"><li><span>↗</span> Reply, choose, and keep things moving</li><li><span>↗</span> Follow progress at a glance</li><li><span>↗</span> Connect your tools through MCP</li></ul>
