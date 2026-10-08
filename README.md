@@ -21,6 +21,7 @@ Use `npm run preview` to inspect the production build.
 
 - `src/pages/index.astro`: homepage and product availability copy.
 - `src/config.ts`: company contact and product destinations.
+- `src/pages/llms.txt.ts`: concise company and product index at `/llms.txt`, generated using the shared site configuration. Keep product availability in sync with the homepage.
 - `src/styles/`: shared design tokens and layout styles.
 - `public/images/`: reviewed product assets, served locally.
 - `/privacy` and `/tos`: company website policies, also available with `.html` suffixes.
