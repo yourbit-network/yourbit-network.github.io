@@ -1,1 +1,10 @@
 .DS_Store
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+.dev.vars*
+.build/
+*.log

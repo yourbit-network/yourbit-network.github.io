@@ -1,0 +1,20 @@
+---
+import Prose from '../layouts/Prose.astro';
+import { site } from '../config';
+---
+<Prose title="Website privacy" description="How Yourbit, LLC handles information when you visit this website or contact us.">
+  <p>Updated October 7, 2026</p>
+  <p>This notice describes how Yourbit, LLC handles information on this company website. Individual products have their own privacy notices, available through their product websites.</p>
+  <h2>Visiting this website</h2>
+  <p>This is an informational website. It does not create an account for you, use advertising trackers, or set analytics cookies. Images, fonts, and styles are served with the site rather than embedded from advertising or social-media providers.</p>
+  <p>Our hosting provider, GitHub Pages, processes technical information such as your IP address when serving the site and protecting its infrastructure. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a> for information about its processing.</p>
+  <h2>Contacting us</h2>
+  <p>Our contact links open your email application. If you email us, we receive the information you choose to send, such as your email address, name, and message. We use it to respond and manage the conversation or work you request. Our email providers process messages to deliver and store that correspondence.</p>
+  <p>We keep correspondence as needed for those purposes and any applicable recordkeeping obligations. Please avoid sending passwords, access tokens, or other sensitive credentials by email.</p>
+  <h2>Other websites and products</h2>
+  <p>Links to product websites, GitHub, and other external services take you to sites with their own privacy practices. Product data handling is described in each product’s privacy policy.</p>
+  <h2>Your questions and requests</h2>
+  <p>You can ask about information you have shared with us, or request access, correction, or deletion, by emailing <a href={`mailto:${site.email}`}>{site.email}</a>. We will address your request according to applicable requirements.</p>
+  <h2>Changes</h2>
+  <p>We may update this notice as the website changes. The date above identifies the latest revision.</p>
+</Prose>

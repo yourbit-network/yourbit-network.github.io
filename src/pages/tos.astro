@@ -1,0 +1,19 @@
+---
+import Prose from '../layouts/Prose.astro';
+import { site } from '../config';
+---
+<Prose title="Website terms" description="Information about using the Yourbit company website and contacting Yourbit, LLC.">
+  <p>Updated October 7, 2026</p>
+  <p>This informational website is operated by Yourbit, LLC. It introduces our products and software engineering services.</p>
+  <h2>Information on this website</h2>
+  <p>We work to keep the information accurate and current. Product features, availability, and service offerings may change. Descriptions on this website are general information and do not constitute a promise to deliver a specific project, feature, or release date.</p>
+  <h2>Products and services</h2>
+  <p>Using a product is subject to that product’s terms and privacy policy. Consulting engagements are covered by a separate agreement describing the work, responsibilities, pricing, and other applicable terms. Contacting us does not itself establish an engagement.</p>
+  <h2>Content and links</h2>
+  <p>Unless otherwise stated, the Yourbit name, branding, and website content belong to Yourbit, LLC. Third-party names and marks belong to their respective owners. Any open-source software is governed by the license in its repository.</p>
+  <p>External links are provided for convenience. The operators of those websites are responsible for their own content and services.</p>
+  <h2>Use of the website</h2>
+  <p>Please use this website lawfully and do not attempt to disrupt its availability or compromise its security.</p>
+  <h2>Contact</h2>
+  <p>For questions about this website, email <a href={`mailto:${site.email}`}>{site.email}</a>.</p>
+</Prose>
