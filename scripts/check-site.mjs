@@ -18,7 +18,7 @@ for (const file of files.filter(f => f.endsWith('.html'))) html.set(file, await 
 assert.equal((await readFile(path.join(root, 'CNAME'), 'utf8')).trim(), 'yourbit.network');
 assert.deepEqual(await readFile(path.join(root, '.well-known/nostr.json')), await readFile('public/.well-known/nostr.json'));
 assert(files.some(f => f.endsWith('/.nojekyll')));
-for (const required of ['index.html', 'privacy.html', 'tos.html', '404.html', 'robots.txt', 'sitemap.xml', 'og-image.png', 'apple-touch-icon.png']) {
+for (const required of ['index.html', 'privacy.html', 'tos.html', '404.html', 'robots.txt', 'sitemap.xml', 'llms.txt', 'og-image.png', 'apple-touch-icon.png']) {
   assert(files.includes(path.join(root, required)), `Missing ${required}`);
 }
 let links = 0;
