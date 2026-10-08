@@ -24,6 +24,7 @@ const canonical = new URL(Astro.url.pathname.replace(/\.html$/, ''), site.origin
     <meta name="facebook-domain-verification" content="uu4pxm397xbkjkox4haac5tvvbwzzg" />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
+    <link rel="describedby" href="/llms.txt" type="text/plain" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
@@ -54,7 +55,7 @@ const canonical = new URL(Astro.url.pathname.replace(/\.html$/, ''), site.origin
       <div class="footer-top">
         <div><a class="wordmark" href="/" aria-label="Yourbit home"><Mark /><span>yourbit<span class="brand-dot">.</span></span></a><p>Thoughtful software.<br />Useful by design.</p></div>
         <nav aria-label="Explore"><span class="footer-label">Explore</span><a href="/#products">Our products</a><a href="/#services">Work with us</a><a href={site.github}>GitHub <span aria-hidden="true">↗</span></a></nav>
-        <nav aria-label="Company"><span class="footer-label">Company</span><a href="/#about">About Yourbit</a><a href="/#contact">Contact</a><a href="/privacy">Website privacy</a><a href="/tos">Website terms</a></nav>
+        <nav aria-label="Company"><span class="footer-label">Company</span><a href="/#about">About Yourbit</a><a href="/#contact">Contact</a><a href="/privacy">Website privacy</a><a href="/tos">Website terms</a><a href="/llms.txt">For AI assistants</a></nav>
       </div>
       <div class="footer-bottom"><span>© {new Date().getFullYear()} {site.company}</span><span>Small details. Lasting usefulness.</span></div>
     </footer>
