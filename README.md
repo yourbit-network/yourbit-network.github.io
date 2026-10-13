@@ -27,7 +27,7 @@ Use `npm run preview` to inspect the production build.
 - `/privacy` and `/tos`: company website policies, also available with `.html` suffixes.
 - `public/.well-known/nostr.json` and the verification meta tag in `Base.astro`: domain integrations.
 
-The NotiBuddy link uses its working public deployment until its custom domain is ready.
+The NotiBuddy product link uses its canonical public website, `https://notibuddy.com`.
 Do not add an App Store download button until a public release URL is available.
 All copied assets are public marketing material owned by Yourbit; no private app source,
 credentials, pairing bundles, or relay configuration belongs in this repository.
